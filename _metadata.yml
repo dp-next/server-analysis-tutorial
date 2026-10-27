@@ -1,0 +1,21 @@
+gh:
+  org: "dp-next"
+  repo: "server-analysis-tutorial"
+
+tagline: "A tutorial on doing analyses on Denmark Statistics or GenomeDK"
+
+links:
+  site: "https://dp-next.github.io/server-analysis-tutorial"
+  github: "https://github.com/dp-next/server-analysis-tutorial"
+
+# TODO: Add the URLs to the surveys.
+surveys:
+  pre-workshop: "TODO"
+  feedback: "TODO"
+
+# TODO: Update these versions
+# Use `samwise::get_allowed_r_versions()` and `samwise::get_allowed_rstudio_versions()`
+# to get a list of the allowed R and RStudio versions.
+versions:
+  r: ""
+  rstudio: ""

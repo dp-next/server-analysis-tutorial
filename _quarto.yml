@@ -1,0 +1,69 @@
+project:
+  type: book
+  # TODO: Uncomment if you want to use slides.
+  # pre-render:
+    # - quarto render slides/*.qmd
+  # resources:
+  #   - slides/*.html
+
+book:
+  title: "Analysis on servers tutorial"
+  # TODO: Add more authors if needed.
+  author:
+    - name: "Jonas Frey Rosborg Schaarup"
+      affiliation: "Steno Diabetes Center Aarhus"
+      orcid: ""
+    - name: "Luke William Johnston"
+      affiliation: "Steno Diabetes Center Aarhus"
+      orcid: ""
+    - name: "Kristina Matthiesen Hanse"
+      affiliation: "Steno Diabetes Center Aarhus"
+      orcid: ""
+  date: last-modified
+  repo-url: "https://github.com/dp-next/server-analysis-tutorial"
+  # TODO: Fill in the URL
+  site-url: "https://dp-next.github.io/server-analysis-tutorial"
+  downloads: [pdf]
+  chapters:
+    - index.qmd
+    - part: "Overview"
+      chapters:
+        - overview/syllabus.qmd
+        - overview/is-this-for-you.qmd
+        - overview/schedule.qmd
+        - overview/learning-design.qmd
+    - part: "Pre-workshop"
+      chapters:
+        - pre-workshop/overview.qmd
+        - pre-workshop/installing-programs-r.qmd
+        - pre-workshop/installing-r-packages.qmd
+        - pre-workshop/code-of-conduct.qmd
+        - pre-workshop/survey.qmd
+    - part: "Sessions"
+      chapters:
+        - sessions/introduction.qmd
+        - sessions/session.qmd
+        - sessions/conclusion.qmd
+  appendices:
+    - appendix/for-teachers.qmd
+    - appendix/references.qmd
+
+    - CONTRIBUTING.md
+    - LICENSE.md
+  page-footer:
+    center:
+    - text: "License: CC BY 4.0"
+      href: LICENSE.md
+    - text: "Code of Conduct"
+      href: "pre-workshop/code-of-conduct.qmd"
+
+format:
+  html: default
+  typst:
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+
+metadata-files:
+  - _metadata.yml
