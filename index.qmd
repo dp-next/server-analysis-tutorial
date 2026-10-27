@@ -84,5 +84,4 @@ material and create the book format, [GitHub](https://github.com/) to host the
 Actions](https://github.com/features/actions) with
 [Netlify](https://www.netlify.com/) to build and host the website. The original
 source material for this workshop is found on the
-[`{{< meta gh.repo >}}`]({{< meta links.github >}}) GitHub
-repository.
+[`{{< meta gh.repo >}}`]({{< meta links.github >}}) GitHub repository.

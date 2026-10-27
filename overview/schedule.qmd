@@ -17,7 +17,7 @@ be an approximate guide and overview.
 ::: panel-tabset
 ## Day 1 {.unnumbered}
 
-| Time | Session topic |
+  | Time | Session topic |
   | :--- | :------------ |
   |      |               |
 :::
